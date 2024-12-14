@@ -22,7 +22,7 @@ As we progress through this guide, we'll set up each of these components step by
 
 ## Table of Contents
 1. [Overview of a 3-Tier](#overview)
-2. [Why we need three tier application](#why-3-tier)
+2. [Why we need three tier application](#why3tier)
   - Phase 1 : [Create VPC](#Create-VPC)
   - Phase 2:  [Launch Web Server](#Launch-Web-Server)
   - Phase 3: [Deploy Application Logic](#DeployAppLogic)
