@@ -44,7 +44,7 @@ Three Layers are
   Business Layer [Business logic]
   Data Layer [Data]
 
-**Why we need three tier application ?** <a name="3tier"></a>
+**Why we need three tier application ?** <a name="CreateVPC"></a>
   If you look at the above points, we are separating the application into multiple layer which helps to scale and secure independently and main modularity . These layers are physically separated, with each running on its own infrastructure.
 
   The architecture presented in this article is one of many possible ways to design a three-tier system and is specifically tailored to meet the goals of availability, security, scalability, and performance.
@@ -76,7 +76,7 @@ Subnet is network portion in your VPC, just think VPC is the full pizza and subn
 **NAT Gateway : [NAT GW]**
   It is the one of the AWS component in VPC. NAT GW helps private instance resources to talk to internet. For Ex., Your private instances need to get the patch, in this case your private resources will talk with internet via NAT gateway. NAT Gateway will be present in Public subnet and acts as a proxy for your private instances.
   
-# Phase 1: CREATE VPC 
+**Phase 1: CREATE VPC** <a name="3tier"></a>
   As this article is quite big to follow up, I have created the VPC and its component in the other article which is mentioned below. Please refer the below mentioned article and come back here to create the Security groups.
 
 https://medium.com/@tojanasg/aws-build-a-secure-scalable-and-resilient-3-tier-web-application-c763a2a3ebb6
