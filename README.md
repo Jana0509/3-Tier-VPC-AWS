@@ -6,4 +6,5 @@ This guide will walk you through the process of creating a 3-tier Virtual Privat
 
 # ARCHITECTURE :
 
-![Uploading Untitled Diagram.drawio.svg…]
+
+![Uploading Untitled Diagram.drawio.png…]()
