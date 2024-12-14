@@ -314,7 +314,7 @@ Once Executed, confirm whether the table is created or not.
 
 --------------------------------------------------------------------------------
 
-## Phase 5: Adding Scalability with Load Balancer <a name="LoadBalancer"></a>
+**Phase 5: Adding Scalability with Load Balancer** <a name="LoadBalancer"></a>
 1. Create the Application Load balancer and target it to the Web server for the scalability and route traffic across AZs 
 2. Create the Security Group which allows all traffic as inbound.
 3. Create the Target group ans target to the web server group.
@@ -356,7 +356,7 @@ Once Executed, confirm whether the table is created or not.
 
 --------------------------------------------------------------------------------
 
-## Phase 7 : Connect the Web Server to the App Server <a name="Connection"></a>
+**Phase 7 : Connect the Web Server to the App Server** <a name="Connection"></a>
 
 1. **Update the Web Server Code:**
 
