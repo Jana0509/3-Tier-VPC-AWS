@@ -23,7 +23,7 @@ As we progress through this guide, we'll set up each of these components step by
 ## Table of Contents
 1. [Overview of a 3-Tier](#overview)
 2. [Why we need three tier application](#3tier)
-   - Phase 1 : [Create VPC](#CreateVPC)
+  - Phase 1 : [Create VPC](#CreateVPC)
   - Phase 2:  [Launch Web Server](#Launch-Web-Server)
   - Phase 3: [Deploy Application Logic](#DeployAppLogic)
   - Phase 4: [Setting Up the Database with RDS](#RDS-Setup)
