@@ -379,10 +379,13 @@ Paste the below html file to show the values from RDS.
 
 ![image](https://github.com/user-attachments/assets/2a26cbfe-5cd2-4a2c-b644-0843ccaa65bd)
 
-### End Result
+## End Result
 **Web Server:** Serves the frontend, fetching product data from the App Server.
+
 **App Server:** Handles backend logic and interacts with the RDS database.
+
 **RDS:** Stores product information.
+
 **Load Balancer:** Balancing the traffic to the Web server across multiple AZs.
 
 --------------------------------------------------------------------------------
@@ -411,3 +414,8 @@ Remember, building a robust cloud infrastructure is an iterative process. Contin
 I hope this guide has provided you with a comprehensive understanding of setting up a 3-tier VPC in AWS. As you implement this architecture, don't hesitate to refer back to specific sections as needed. Good luck with your AWS journey!
 
 --------------------------------------------------------------------------------
+# IMPORTANT NOTE :
+
+Remember to delete resources in the correct order, as some resources may have dependencies on others. Always double-check that all resources have been properly deleted to avoid any unexpected charges.
+
+Note: This cleanup process will permanently delete all the resources and data associated with this VPC setup. Make sure you have backed up any important data before proceeding with the cleanup.
