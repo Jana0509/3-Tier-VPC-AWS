@@ -326,7 +326,8 @@ Once Executed, confirm whether the table is created or not.
 
 --------------------------------------------------------------------------------
 
-## Phase 6 : Insert Data into RDS from App Server and Enable Web Server to Call the App Server <a name="RDS"></a>
+## Phase 6 : Insert Data into RDS from App Server and Enable Web Server to Call the App Server 
+<a name="RDS"></a>
   Log in to the App Server using EC2 Instance Connect.
   Install Required Software:
 
