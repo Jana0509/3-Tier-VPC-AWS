@@ -23,7 +23,7 @@ As we progress through this guide, we'll set up each of these components step by
 ## Table of Contents
 1. [Overview of a 3-Tier](#overview)
 2. [Why we need three tier application](#why3tier)
-  - Phase 1 : [Create VPC](#Create-VPC)
+   - Phase 1 : [Create VPC](#CreateVPC)
   - Phase 2:  [Launch Web Server](#Launch-Web-Server)
   - Phase 3: [Deploy Application Logic](#DeployAppLogic)
   - Phase 4: [Setting Up the Database with RDS](#RDS-Setup)
@@ -76,7 +76,7 @@ Subnet is network portion in your VPC, just think VPC is the full pizza and subn
 **NAT Gateway : [NAT GW]**
   It is the one of the AWS component in VPC. NAT GW helps private instance resources to talk to internet. For Ex., Your private instances need to get the patch, in this case your private resources will talk with internet via NAT gateway. NAT Gateway will be present in Public subnet and acts as a proxy for your private instances.
   
-## Phase 1: CREATE VPC <a name="Create-VPC"></a>
+## Phase 1: CREATE VPC <a name="CreateVPC"></a>
   As this article is quite big to follow up, I have created the VPC and its component in the other article which is mentioned below. Please refer the below mentioned article and come back here to create the Security groups.
 
 https://medium.com/@tojanasg/aws-build-a-secure-scalable-and-resilient-3-tier-web-application-c763a2a3ebb6
