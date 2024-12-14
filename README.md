@@ -23,13 +23,13 @@ As we progress through this guide, we'll set up each of these components step by
 ## Table of Contents
 1. [Overview of a 3-Tier](#overview)
 2. [Why we need three tier application](#why-3-tier)
-   Phase 1 : [Create VPC](#Create-VPC)
-   Phase 2:  [Launch Web Server](#Launch-Web-Server)
-   Phase 3: [Deploy Application Logic](#DeployAppLogic)
-   Phase 4: [Setting Up the Database with RDS](#RDS-Setup)
-   Phase 5: [Adding Scalability with Load Balancer](#LoadBalancer)
-   Phase 6: [Insert Data into RDS from App Server and Enable Web Server to Call the App Server](#RDS)
-   Phase 7 : [Connect the Web Server to the App Server](#Connection)
+  - Phase 1 : [Create VPC](#Create-VPC)
+  - Phase 2:  [Launch Web Server](#Launch-Web-Server)
+  - Phase 3: [Deploy Application Logic](#DeployAppLogic)
+  - Phase 4: [Setting Up the Database with RDS](#RDS-Setup)
+  - Phase 5: [Adding Scalability with Load Balancer](#LoadBalancer)
+  - Phase 6: [Insert Data into RDS from App Server and Enable Web Server to Call the App Server](#RDS)
+  - Phase 7 : [Connect the Web Server to the App Server](#Connection)
 3. [Conclusion](#Conclusion)
 
 
