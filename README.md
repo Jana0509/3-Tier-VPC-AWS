@@ -21,7 +21,7 @@ This diagram shows the key components of our setup, including:
 As we progress through this guide, we'll set up each of these components step by step.
 
 ## Table of Contents
-1. [Overview of a 3-Tier VPC]
+1. [Overview of a 3-Tier](#overview)
 
 
 
@@ -31,7 +31,7 @@ As we progress through this guide, we'll set up each of these components step by
 
 
 
-# HOW 3 TIER APPLICATION WORKS ?
+# Overview of a 3-Tier Architecture <a name="overview"></a>
 when the user wants to access any application, it needs the UI to interact, User Interface is called as presentation layer. Once the user started accessing the UI, application needs to respond to the user according to the business need. So the Business logic operations happens at business layer. Finally, application needs some kind of persistent storage to interact with user, This layer is called as data layer.
 
 Three Layers are
