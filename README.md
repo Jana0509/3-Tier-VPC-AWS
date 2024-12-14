@@ -123,7 +123,7 @@ Create a new security group named Database-SG.
 
 --------------------------------------------------------------------------------
 
-## Phase 2: Launch the Web Server <a name="LaunchWebServer"></a>
+Phase 2: Launch the Web Server <a name="LaunchWebServer"></a>
   In this phase, we will launch an EC2 instance for the web server in the public subnet created in Phase 1. The web server will serve as the front end of the e-commerce platform.
 Step-by-Step Process
 
