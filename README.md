@@ -116,7 +116,7 @@ Create a new security group named Database-SG.
 
 **If you have noticed, we have created the security group chaining, Security group of App Server only allows traffic from webserver. SG of Database will allow traffic from App Server. So, Here we are creating the secured network between subnets.**
 
----
+--------------------------------------------------------------------------------
 
 ## Phase 2: Launch the Web Server
   In this phase, we will launch an EC2 instance for the web server in the public subnet created in Phase 1. The web server will serve as the front end of the e-commerce platform.
@@ -182,6 +182,7 @@ Create a simple test web page:
 
     ![image](https://github.com/user-attachments/assets/f41da71b-91c1-48f2-8bcd-fae0ebabde6a)
 
+--------------------------------------------------------------------------------
 
 ## Phase 3: Deploy Application Logic (App Server)
   In this phase, we will launch an EC2 instance in the private subnet created in Phase 1 to host the application logic. This Application Server will process user requests and communicate with the Database layer.
@@ -206,6 +207,7 @@ Create a simple test web page:
           ssh ec2-user@<Private-IP-of-AppServer>
           Replace <Private-IP-of-AppServer> with the App Server's private IP (visible in the EC2 Dashboard).
 
+--------------------------------------------------------------------------------
 
   ## Phase 3: Install Application Dependencies
     **1. **Web Server Setup****
@@ -224,7 +226,8 @@ Run the command for installing the dependencies of php and mysql in the App serv
 
 
           ![image](https://github.com/user-attachments/assets/347f407e-1150-4d1d-b071-ba9bd1dd13ab)
-
+          
+--------------------------------------------------------------------------------
 
 ## Phase 4: Setting Up the Database with RDS
   In this phase, we will set up an Amazon RDS (MySQL) instance for the backend database to store product details, user data, and order details.
@@ -304,6 +307,7 @@ Once Executed, confirm whether the table is created or not.
 
 ![image](https://github.com/user-attachments/assets/3d5b7003-dce1-469c-bbbc-7a08066e16ee)
 
+--------------------------------------------------------------------------------
 
 ## Phase 7: Adding Scalability with Load Balancer
 1. Create the Application Load balancer and target it to the Web server for the scalability and route traffic across AZs 
@@ -315,6 +319,7 @@ Once Executed, confirm whether the table is created or not.
 
 ![image](https://github.com/user-attachments/assets/27973c87-3603-4323-bc70-024562aabf63)
 
+--------------------------------------------------------------------------------
 
 ## Phase 8 :Insert Data into RDS from App Server and Enable Web Server to Call the App Server
   Log in to the App Server using EC2 Instance Connect.
@@ -344,6 +349,7 @@ Once Executed, confirm whether the table is created or not.
   The product is added to the RDS database.
   Run SELECT * FROM Products; on your RDS database to confirm.
 
+--------------------------------------------------------------------------------
 
 ## Phase 9 : Connect the Web Server to the App Server
 
