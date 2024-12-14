@@ -5,9 +5,9 @@ This guide will walk you through the process of creating a 3-tier Virtual Privat
 
 
 # ARCHITECTURE :
+![image](https://github.com/user-attachments/assets/8e8007a3-5557-4ba2-b86e-6d18593d94d0)
 
 
-![Uploading Untitled Diagram.drawio.png…]()
 
 This diagram shows the key components of our setup, including:
 
