@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>E-Commerce Platform</title>
+</head>
+<body>
+ <h1>Product List</h1>
+ <ul id="product-list"></ul>
+<script>
+ // Fetch products from the App Server
+ fetch('http://<App-Server-Public-IP>:5000/products')
+ .then(response => response.json())
+ .then(products => {
+ const productList = document.getElementById('product-list');
+ products.forEach(product => {
+ const listItem = document.createElement('li');
+ listItem.textContent = `${product.name} - $${product.price} (Stock: ${product.stock})`;
+ productList.appendChild(listItem);
+ });
+ })
+ .catch(err => console.error('Error fetching products:', err));
+ </script>
+</body>
+</html>
