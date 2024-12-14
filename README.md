@@ -22,7 +22,7 @@ As we progress through this guide, we'll set up each of these components step by
 
 ## Table of Contents
 1. [Overview of a 3-Tier](#overview)
-2. [Why we need three tier application](#why3tier)
+2. [Why we need three tier application](#3tier)
    - Phase 1 : [Create VPC](#CreateVPC)
   - Phase 2:  [Launch Web Server](#Launch-Web-Server)
   - Phase 3: [Deploy Application Logic](#DeployAppLogic)
@@ -44,7 +44,7 @@ Three Layers are
   Business Layer [Business logic]
   Data Layer [Data]
 
-**Why we need three tier application ?**
+**Why we need three tier application ?** <a name="3tier"></a>
   If you look at the above points, we are separating the application into multiple layer which helps to scale and secure independently and main modularity . These layers are physically separated, with each running on its own infrastructure.
 
   The architecture presented in this article is one of many possible ways to design a three-tier system and is specifically tailored to meet the goals of availability, security, scalability, and performance.
