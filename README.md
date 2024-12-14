@@ -123,7 +123,7 @@ Create a new security group named Database-SG.
 
 --------------------------------------------------------------------------------
 
-Phase 2: Launch the Web Server <a name="LaunchWebServer"></a>
+**Phase 2: Launch the Web Server** <a name="LaunchWebServer"></a>
   In this phase, we will launch an EC2 instance for the web server in the public subnet created in Phase 1. The web server will serve as the front end of the e-commerce platform.
 Step-by-Step Process
 
@@ -189,7 +189,7 @@ Create a simple test web page:
 
 --------------------------------------------------------------------------------
 
-## Phase 3: Deploy Application Logic (App Server) <a name="DeployAppLogic"></a>
+**Phase 3: Deploy Application Logic (App Server)** <a name="DeployAppLogic"></a>
   In this phase, we will launch an EC2 instance in the private subnet created in Phase 1 to host the application logic. This Application Server will process user requests and communicate with the Database layer.
 
   Follow the same procedure for creating the instance but make sure of selecting the private subnet in network settings
@@ -234,7 +234,7 @@ Run the command for installing the dependencies of php and mysql in the App serv
           
 --------------------------------------------------------------------------------
 
-## Phase 4: Setting Up the Database with RDS <a name="RDS-Setup"></a>
+**Phase 4: Setting Up the Database with RDS** <a name="RDS-Setup"></a>
   In this phase, we will set up an Amazon RDS (MySQL) instance for the backend database to store product details, user data, and order details.
 Launch an RDS Instance:
     1. Navigate to the RDS Dashboard.
