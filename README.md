@@ -419,3 +419,13 @@ I hope this guide has provided you with a comprehensive understanding of setting
 Remember to delete resources in the correct order, as some resources may have dependencies on others. Always double-check that all resources have been properly deleted to avoid any unexpected charges.
 
 Note: This cleanup process will permanently delete all the resources and data associated with this VPC setup. Make sure you have backed up any important data before proceeding with the cleanup.
+
+--------------------------------------------------------------------------------
+Final Note
+Thank you for using this guide! If you have any questions, suggestions, or feedback, please don't hesitate to reach out. You can contact me at tojana95@gmail.com.
+
+This guide is available as an open resource. Feel free to use, share, and contribute to it.
+
+Remember, while this guide aims to be comprehensive, AWS services and best practices evolve over time. Always refer to the official AWS documentation for the most up-to-date information.
+
+Happy cloud architecting!
