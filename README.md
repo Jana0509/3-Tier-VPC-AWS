@@ -35,7 +35,6 @@ As we progress through this guide, we'll set up each of these components step by
 
 
 
-
 # Overview of a 3-Tier Architecture <a name="overview"></a>
 when the user wants to access any application, it needs the UI to interact, User Interface is called as presentation layer. Once the user started accessing the UI, application needs to respond to the user according to the business need. So the Business logic operations happens at business layer. Finally, application needs some kind of persistent storage to interact with user, This layer is called as data layer.
 
@@ -59,6 +58,8 @@ AWS by default provides the default VPC, but if you are creating the resources o
 
 In order to protect your resources, you will be building your own network space in cloud and you will be having the control such as inbound and outbound traffic for the VPC.
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 # VPC COMPONENTS:
 what is subnets ?
@@ -75,7 +76,10 @@ Subnet is network portion in your VPC, just think VPC is the full pizza and subn
   
 **NAT Gateway : [NAT GW]**
   It is the one of the AWS component in VPC. NAT GW helps private instance resources to talk to internet. For Ex., Your private instances need to get the patch, in this case your private resources will talk with internet via NAT gateway. NAT Gateway will be present in Public subnet and acts as a proxy for your private instances.
-  
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
 ## Phase 1: CREATE VPC 
 <a name="CreateVPC"></a>
   As this article is quite big to follow up, I have created the VPC and its component in the other article which is mentioned below. Please refer the below mentioned article and come back here to create the Security groups.
@@ -121,6 +125,7 @@ Create a new security group named Database-SG.
   Private Subnet: Hosts your App Server and RDS.
 
 **If you have noticed, we have created the security group chaining, Security group of App Server only allows traffic from webserver. SG of Database will allow traffic from App Server. So, Here we are creating the secured network between subnets.**
+
 
 --------------------------------------------------------------------------------
 
@@ -188,6 +193,8 @@ Create a simple test web page:
     **Welcome to the E-Commerce Platform Web Server**
 
     ![image](https://github.com/user-attachments/assets/f41da71b-91c1-48f2-8bcd-fae0ebabde6a)
+
+
 
 --------------------------------------------------------------------------------
 
